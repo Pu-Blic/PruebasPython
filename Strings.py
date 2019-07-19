@@ -1,4 +1,4 @@
-myStr ="hola oJEtes 25"
+myStr ="hola oJEtes"
 
 #print(dir(myStr))
 
@@ -21,3 +21,16 @@ print(type(myArray))
 
 #Encontrar la posición de la letra 'l'
 print("La posición de la letra l es:", myStr.find("l"))
+
+#Encontrar el índice de una palabra
+print("El índice de la letra l es:", myStr.index("l"))
+
+#Comprobar si la variable es numérica
+print("El texto es numérico:", myStr.isnumeric())
+
+#Comprobar si la variable es alfanumérico
+print("El texto es numérico:", myStr.isalpha())
+
+#Mostrar el carácter de la posición 6
+print("En la posición 6 hay una letra", myStr[6])
+print("La primera letra o está en la posición:" , myStr.index("o"))
