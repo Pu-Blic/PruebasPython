@@ -26,7 +26,7 @@ print(type(["rojo", "verde", "azul", "verde"]))
 print([1, "Ana", "verde", 17.50])
 print(type([1, "Ana", "verde", 17.50]))
 
-#Tuples. es una lista que no puede modificarse
+#Tupla. es una lista que no puede modificarse
 print((10, 20, 30, 40))
 print(type((10, 20, 30, 40)))
 print()

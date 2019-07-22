@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Numeros.py</StartupFile>
+    <StartupFile>Tuplas.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Strings.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Tuplas.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Variables.py">
