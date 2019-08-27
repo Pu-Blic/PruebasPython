@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Tuplas.py</StartupFile>
+    <StartupFile>For y While.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,13 +22,25 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AplicacionConsola.py" />
+    <Compile Include="Condicionales.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Datatype.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Diccionarios.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="For y While.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Listas.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Numeros.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sets.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Strings.py">

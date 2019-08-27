@@ -16,7 +16,7 @@ print(type(23.5))
 print(True)
 print(type(True))
 
-#listas, arrays
+#tuplas, listas, arrays
 print([12, 14,16,18])
 print(type([12, 14,16,18]))
 
