@@ -12,3 +12,6 @@ while tabla != "no":
         print(tabla, "x", i, "=",resultado)
     tabla= (input("Escribe qué tabla de multiplicar quieres ver (escribe 'no' para no mostar ninguna tabla: "))
 
+print ("*******")
+print ("* Fin *")
+print ("*******")
