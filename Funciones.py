@@ -15,3 +15,4 @@ while tabla != "no":
 print ("*******")
 print ("* Fin *")
 print ("*******")
+print ("*******")
