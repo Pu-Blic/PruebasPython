@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Funciones.py</StartupFile>
+    <StartupFile>modulos.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -38,6 +38,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Listas.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="miModulo.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modulos.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Numeros.py">
