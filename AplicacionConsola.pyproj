@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>modulos.py</StartupFile>
+    <StartupFile>Comprobación Email.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AplicacionConsola.py" />
+    <Compile Include="Comprobación Email.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Condicionales.py">
       <SubType>Code</SubType>
     </Compile>
