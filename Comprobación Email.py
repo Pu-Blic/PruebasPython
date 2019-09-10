@@ -15,8 +15,7 @@ def ComprobarEmailCorrecto(direccion):
     #    return True
     #else:
     #    return False
-
-
+    
 correo=input("Introduce tu correo electrónico: ")
 if (ComprobarEmailCorrecto(correo))==True:
     print("El correo es correcto.")
