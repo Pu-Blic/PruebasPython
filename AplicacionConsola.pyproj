@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>JuegoDeLaVida.py</StartupFile>
+    <StartupFile>BuscarMina.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AplicacionConsola.py" />
+    <Compile Include="BuscarMina.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Comprobación Email.py">
       <SubType>Code</SubType>
     </Compile>
@@ -53,6 +56,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Numeros.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Ordenar.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sets.py">

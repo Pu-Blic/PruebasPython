@@ -1,10 +1,8 @@
+from colorama import Fore, Back, Style, init
 
-def suma (a):
-    a=a+3
-    return a
+init(convert = True)
 
-
-a=2
-print(a,"---")
-c=suma(a)
-print(a,"---")
+print ("hola")
+print (Fore.RED + "rojo")
+print (Fore.RESET)
+print ("verde")

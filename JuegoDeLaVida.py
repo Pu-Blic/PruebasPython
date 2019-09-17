@@ -7,25 +7,27 @@ from colorama import Fore, Back, Style, init
 init(convert = True)
 
 def PintarTablero(tablero, tableroNuevo): 
-    for i in range(len(tablero[0])):
-        for j in range(len(tablero[1])):
-            if tablero[i][j] == tableroNuevo[i][j]:
+    for i in range(len(tablero)):
+        for j in range(len(tablero[0])):            
+            if tablero[i][j]=="O":
                 print(Fore.GREEN + tablero[i][j],end="")
-            else:
+            elif tablero[i][j]=="X":
                 print(Fore.RED + tablero[i][j],end="")
+            else:
+                print(Fore.RESET + tablero[i][j],end="")
         print("")
 
-def IniciarTablero():
+def IniciarTablero(filas, columnas):
     tablero=[]
     
-    for i in range(13):
-        tablero.append([""] * 13)
+    for i in range(int(filas)):
+        tablero.append([""] * int(columnas))
 
     #Ponto una O en cada elemento de cada una de las diez listas de la matriz
-    for i in range(len(tablero[0])):
-        for j in range(len(tablero[1])):
+    for i in range(filas):
+        for j in range(columnas):
             #Pongo los bordes del tablero con un caracter distinto
-            if (i>0 and i<len(tablero[0])-1) and (j>0 and j<len(tablero[1])-1):
+            if (i>0 and i<int(filas)-1) and (j>0 and j<int(columnas)-1):
                 if random.random()<0.5:                
                     tablero[i][j]="O"
                 else:
@@ -70,7 +72,7 @@ print("***********************")
 print("")
 
 # Se crea e inicia el tablero del juego
-tablero = IniciarTablero()
+tablero = IniciarTablero(13,13)
 
 tableroNuevo = tablero
 iteraciones=int(input("¿Cuántas iteraciones quieres hacer?: "))
