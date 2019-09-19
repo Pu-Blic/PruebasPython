@@ -21,5 +21,3 @@ if (ComprobarEmailCorrecto(correo))==True:
     print("El correo es correcto.")
 else:
     print("La dirección de correo no es correcta")
-
-# Voy por aquí en el curso https://www.youtube.com/watch?v=TLVnoqXGWpY&list=PLU8oAlHdN5BlvPxziopYZRd55pdqFwkeS&index=19
