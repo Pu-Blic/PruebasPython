@@ -21,7 +21,18 @@ class Coche():
             return "El coche está en marcha"
         else:
             return "El coche está parado"
-        
+
+    def ChequeoInterno(self):
+        print("Realizando chequeo")
+        self.gasolina="ok"
+        self.aceite="ok"
+        self.puertas="cerradas"
+
+        if (self.gasolina=="ok" and self.aceite=="ok" and self.puertas=="cerradas"):
+            return True
+        else:
+            return False
+
 miCoche = Coche()
 print(miCoche.Estado())
 print("Lo arranco")
@@ -34,3 +45,4 @@ print(miCoche.Estado())
 print("Mi coche tiene", miCoche._Coche__ruedas, "ruedas")
 miCoche.__ruedas=2 #esto no modifica la propiedad "__ruedas"
 print("Mi coche tiene", miCoche._Coche__ruedas, "ruedas")
+
