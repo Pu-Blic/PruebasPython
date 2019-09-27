@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>POO_I.py</StartupFile>
+    <StartupFile>POO_III_super.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -74,6 +74,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POO_I.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POO_II.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="POO_III_super.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sets.py">
