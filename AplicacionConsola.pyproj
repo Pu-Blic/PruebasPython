@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>modulos\Prueba_Modulos.py</StartupFile>
+    <StartupFile>UsoDePaquetes.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,14 @@
     <Compile Include="BuscarMina.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Calculos\matematicos\calculos_basicos.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Calculos\matematicos\__init__.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Calculos\matematicos\calculos_complejos.py" />
+    <Compile Include="Calculos\estadisticos\__init__.py" />
     <Compile Include="Comprobación Email.py">
       <SubType>Code</SubType>
     </Compile>
@@ -103,6 +111,9 @@
     <Compile Include="Tuplas.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="UsoDePaquetes.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Variables.py">
       <SubType>Code</SubType>
     </Compile>
@@ -111,7 +122,10 @@
     <Content Include="URL Curso.txt" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Calculos\matematicos\" />
+    <Folder Include="Calculos\estadisticos\" />
     <Folder Include="modulos\" />
+    <Folder Include="Calculos\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
