@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>POO_III_super.py</StartupFile>
+    <StartupFile>modulos\Prueba_Modulos.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -67,10 +67,19 @@
     <Compile Include="modulos.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="modulos\funciones_matematicas.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="modulos\Prueba_Modulos.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Numeros.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Ordenar.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Polimorfismo_I.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POO_I.py">
@@ -100,6 +109,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="URL Curso.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="modulos\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
