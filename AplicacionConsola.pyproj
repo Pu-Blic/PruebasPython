@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>InformacionPermanente.py</StartupFile>
+    <StartupFile>EntornoGráfico\PrimeraInterface.pyw</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,6 +43,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Diccionarios.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EntornoGráfico\PrimeraInterface.pyw">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Excepciones_I.py">
@@ -138,6 +141,7 @@
     <Folder Include="Calculos\estadisticos\" />
     <Folder Include="modulos\" />
     <Folder Include="Calculos\" />
+    <Folder Include="EntornoGráfico\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
