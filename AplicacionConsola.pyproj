@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>UsoDePaquetes.py</StartupFile>
+    <StartupFile>Serializar_objetos.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -69,6 +69,9 @@
     <Compile Include="Listas.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ManejoArchivos_I.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="miModulo.py">
       <SubType>Code</SubType>
     </Compile>
@@ -97,6 +100,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="POO_III_super.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializacion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Serializar_objetos.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sets.py">
