@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EntornoGráfico\FormularioUsandoGrid.py</StartupFile>
+    <StartupFile>EntornoGráfico\Calculadora.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -43,6 +43,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Diccionarios.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EntornoGráfico\Calculadora.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="EntornoGráfico\FormularioLabel.py">
