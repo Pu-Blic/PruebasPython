@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>86b216c7-1c12-4d7e-bf66-a1f8fd579323</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EntornoGráfico\Calculadora.py</StartupFile>
+    <StartupFile>EntornoGráfico\CheckButton.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -48,13 +48,20 @@
     <Compile Include="EntornoGráfico\Calculadora.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="EntornoGráfico\CheckButton.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="EntornoGráfico\FormularioLabel.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="EntornoGráfico\FormularioUsandoGrid.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="EntornoGráfico\practicaCalculadora.py" />
     <Compile Include="EntornoGráfico\PrimeraInterface.pyw">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="EntornoGráfico\RadioButton.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Excepciones_I.py">
